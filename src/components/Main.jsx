@@ -32,7 +32,6 @@ export default function Main(){
         if(trimmed !== '') {
             setTasks([...tasks, {task: trimmed, done: false}])
             setInputValue('')
-            console.log(tasks)
         }
     }
 

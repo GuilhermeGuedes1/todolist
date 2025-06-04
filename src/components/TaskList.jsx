@@ -1,4 +1,4 @@
-export default function TaskList({task, onClick, status, onToggle, done}){
+export default function TaskList({task, onClick, onToggle, done}){
 
     return(
         <>
