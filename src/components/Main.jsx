@@ -7,8 +7,8 @@ export default function Main(){
     
 
     const tasksData = [
-         {task:'Comer', done: false},
-         {task: 'Dormir', done: false}
+         {task:'Assistir um Narutin', done: false},
+         {task: 'Mandar msg para avó', done: false}
     ]
 
     const [tasks, setTasks] = useState(() => {
