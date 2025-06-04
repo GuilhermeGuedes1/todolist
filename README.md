@@ -3,7 +3,7 @@
 
 Este é um aplicativo simples de lista de tarefas (to-do list) criado com React. Permite adicionar, marcar como concluída e remover tarefas, com armazenamento no localStorage para persistência dos dados entre sessões. Além disso, possui uma animação legal que revela o ícone de lixeira ao passar o mouse sobre a tarefa.
 
-![Captura de tela 2025-06-04 195654](https://github.com/user-attachments/assets/5c39c8e3-254d-444f-b11f-732185935671)
+![Captura de tela 2025-06-04 200713](https://github.com/user-attachments/assets/22c27764-dd3f-40dd-aea3-c2a4e6afa75c)
 
 ---
 
@@ -21,10 +21,13 @@ Este é um aplicativo simples de lista de tarefas (to-do list) criado com React.
 
 
 /src
- ├─ Main.js           # Componente principal com estado e lógica do app
- ├─ TaskList.js       # Componente que renderiza cada tarefa individualmente
- ├─ Main.css          # Estilos e animações do projeto
- └─ index.js          # Ponto de entrada React
+ ├─ Main.js           Componente principal com estado e lógica do app
+ 
+ ├─ TaskList.js       Componente que renderiza cada tarefa individualmente
+ 
+ ├─ Main.css          Estilos e animações do projeto
+ 
+ └─ index.js          Ponto de entrada React
 
 
 ---
