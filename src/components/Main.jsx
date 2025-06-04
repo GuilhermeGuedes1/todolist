@@ -7,12 +7,18 @@ export default function Main(){
     
 
     const tasksData = [
-        {task:'Comer', done: false},
-        {task: 'Dormir', done: false}
+         {task:'Comer', done: false},
+         {task: 'Dormir', done: false}
     ]
 
+    const [tasks, setTasks] = useState(() => {
+        const stored = localStorage.getItem('tasks');
+        return stored ? JSON.parse(stored) : tasksData
+    })
 
-    const [tasks, setTasks] = useState(tasksData)
+    useEffect(() => { 
+        localStorage.setItem('tasks', JSON.stringify(tasks))
+    }, [tasks])
 
 
     const [inputValue, setInputValue] = useState('')
