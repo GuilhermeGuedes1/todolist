@@ -1,0 +1,88 @@
+main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: #ffffff;
+    max-width: 500px;
+    min-height: 150px;
+    box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.253);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+ul { 
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+input { 
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 12px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+span  { 
+    font-family: "Rubik", sans-serif;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #333333;
+    font-weight: 500;
+}
+
+span:hover { 
+    color: lightslategray;
+}
+
+.list-item { 
+    width: 100%;
+}
+
+li { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 130%;
+    padding: 12px;
+    font-size: 1.4rem;
+    font-family: "Rubik", sans-serif;
+    transition: all 0.7s ease;
+}
+
+ion-icon { 
+    color: #333333
+}
+
+.check-container{ 
+    display: flex;
+    gap:10px;
+}
+
+input[type="checkbox"] { 
+   width: 20px;
+   
+}
+
+li:hover { 
+    width: 100%;
+}
+
+.finish { 
+    text-decoration: line-through;
+    font-style: italic;
+
+}
