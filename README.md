@@ -21,13 +21,13 @@ Este é um aplicativo simples de lista de tarefas (to-do list) criado com React.
 
 
 /src
- ├─ Main.js           # Componente principal com estado e lógica do app
+ ├─ Main.js           #Componente principal com estado e lógica do app
  
- ├─ TaskList.js       # Componente que renderiza cada tarefa individualmente
+ ├─ TaskList.js       #Componente que renderiza cada tarefa individualmente
  
- ├─ Main.css          # Estilos e animações do projeto
+ ├─ Main.css          #Estilos e animações do projeto
  
- └─ index.js          # Ponto de entrada React
+ └─ index.js          #Ponto de entrada React
 
 
 ---
